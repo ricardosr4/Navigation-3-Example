@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.navigation3example.basic_navigation.BasicNavigationWrapper
+import com.example.navigation3example.medium_navigation.MediumNavigationWrapper
 import com.example.navigation3example.ui.theme.Navigation3ExampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Navigation3ExampleTheme {
-                BasicNavigationWrapper()
+                MediumNavigationWrapper()
             }
         }
     }
